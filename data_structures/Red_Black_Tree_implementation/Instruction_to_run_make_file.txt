@@ -1,0 +1,22 @@
+# Instruction to run the make file
+--------------------------------------
+
+-Navigate to the directory in thunder where all the files resides
+-Run in terminal : make
+-The executable will be find in dist directory
+-Navigate to dist directory 
+-Run in terminal : ./plateMgmt ../inputFileName
+( using python3 in the command will give the UTF-8 error, tried fixing it but find that python3 cannot be used when using the executable)
+
+
+
+
+# some logics used in the RedBlackTree Implementation
+---------------------------------------
+- Revenue is calculated based on the nodes in final tree( not deleted node taken into consideration)
+
+# input output naming
+--------------------------------------------------
+Ex:
+Input: inputFileName.txt
+Output: inputFileName_output.txt
